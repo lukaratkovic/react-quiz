@@ -1,0 +1,32 @@
+img{
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+#Gryffindor{
+    color: crimson;
+    text-shadow: black 1px 1px 1px;
+}
+
+#Ravenclaw{
+    color: dodgerblue;
+    text-shadow: black 1px 1px 1px;
+}
+
+#Hufflepuff{
+    color: gold;
+    text-shadow: black 1px 1px 1px;
+}
+
+#Slytherin{
+    color: Green;
+}
+
+button{
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    border-radius: 15px;
+    box-shadow: silver 1px 1px 1px;
+}
