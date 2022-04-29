@@ -5,9 +5,9 @@ const Answer = (props) => {
     let answers = Object.keys(props.answer)
         .map((key, i) => (
             <li 
-            onClick={() => props.setAnswer(key)}
+            onClick={() => props.setAnswer(props.answer[key][1])}
             key={key}>
-                {props.answer[key]}
+                {props.answer[key][0]}
             </li>
         ))
 
