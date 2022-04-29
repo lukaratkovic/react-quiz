@@ -104,7 +104,7 @@ const Quiz = () => {
         {   (step <= Object.keys(questionsList.questions).length) ?
                 // Render question and answers if final question has not been answered
                 <>
-                    <Question question={questionsList.questions[step]}/>
+                    <Question question={questionsList} step={step}/>
                     <Answer answer={questionsList.answers[step]} setAnswer={setAnswer}/>
                 </>
                 :

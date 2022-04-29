@@ -27,8 +27,6 @@ const Result = (props) => {
         }
     ];
 
-    console.log(result);
-
     let finalHouse = result[0];
     for(let i=1; i<result.length; i++){
         if(result[i].totalPoints > finalHouse.totalPoints){

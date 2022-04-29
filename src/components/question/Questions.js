@@ -2,8 +2,13 @@ import React from "react";
 import './Question.css';
 
 const Question = (props) => {
+    const step = props.step;
+    const question = props.question.questions;
     return(
-        <h1>{props.question}</h1>
+        <>
+            <span>{step}/{Object.keys(question).length}</span>
+            <h1>{question[step]}</h1>
+        </>
     )
 }
 
