@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-quiz/static/css/main.ce445263.css",
+    "main.js": "/react-quiz/static/js/main.42bd9fcd.js",
+    "static/media/gryffindor.webp": "/react-quiz/static/media/gryffindor.5f9c14ebc15ec52f3737.webp",
+    "static/media/ravenclaw.webp": "/react-quiz/static/media/ravenclaw.ca2ea69a7f28455b220d.webp",
+    "static/media/hufflepuff.webp": "/react-quiz/static/media/hufflepuff.f2bb74d6823b3b23051f.webp",
+    "static/media/slytherin.webp": "/react-quiz/static/media/slytherin.db4d4a62e848acedbae8.webp",
+    "index.html": "/react-quiz/index.html",
+    "main.ce445263.css.map": "/react-quiz/static/css/main.ce445263.css.map",
+    "main.42bd9fcd.js.map": "/react-quiz/static/js/main.42bd9fcd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce445263.css",
+    "static/js/main.42bd9fcd.js"
+  ]
+}
